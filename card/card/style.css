@@ -29,7 +29,7 @@ h1,h2,h3,h4{
 }
 
 .info h3{
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     padding: 1rem;
     color: #585858;
     font-weight: lighter;
@@ -80,14 +80,14 @@ body{
     align-items: center;
     justify-content: center;
     transform-style: preserve-3d;
-    perspective: 1000px;
+    perspective: 1300px;
 }
 .sneaker img{
     width: 20rem;
     z-index: 2;
     transition: all 0.75s ease-out;
     transform-style: preserve-3d;
-    perspective: 1000px;
+    perspective: 1300px;
 }
 
 .circle{
@@ -130,13 +130,14 @@ button:hover,
 
 
 .selection_button{
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
    
 
 }
 .selection_button button{
     width: 100%;
-    padding:  .5rem 0rem;
+    padding:  .2rem 2rem;
     background:#fff;
     border: 2px solid #f54642;
     color: #f54642;
